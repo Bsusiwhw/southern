@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Calibration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="header&footer.css">
+    <style>
+        .content {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    padding: 0 30px; /* Add padding if needed */
+}               .bot {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    padding: 0 30px; /* Add padding if needed */
+}
+
+/* Adjust the margin values for different screen sizes if needed */
+@media only screen and (max-width: 1280px) {
+    .content {
+        max-width: 1220px; /* Adjust max-width for 1280px width */
+    }
+}
+
+/* Adjust the margin values for smaller screen sizes if needed */
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+        
+        iframe{
+            -moz-boder-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .iframe-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        /* Adjust as needed based on your layout */
+    }
+
+    .iframe-wrapper {
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .iframe-container p {
+        text-align: left;
+        margin: 50px 10px ;
+        line-height: 3.5;
+    }
+
+    .iframe-container .iframe-wrapper h2 {
+        text-align: center;
+    }/* Adjust as needed based on your layout */
+        
+        
+        /* Dropdown menu animation */
+
+
+  /* LAPTOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
+
+        .title {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2; /* Ensure the title appears above the navbar */
+        }
+        .background-image {
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #5aace3ce, rgba(0, 0, 0, 0.5)), url("./image/h1.jpg");
+    background-size: cover;
+    filter: brightness(60%);
+}
+        h1 {
+            position: relative;
+            font-size: 4vw;
+            text-align: center;
+            padding: 10px 20px;
+            z-index: 1; /* Ensure the text appears in front of the background */
+        }
+        .div2 {
+        margin: 60px 0;
+
+ /* Adjust the gap between columns */
+        }
+        h2, 
+        p{
+            margin: 30px 0;
+        }
+
+
+
+
+    
+    .ca {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 50px 0; /* Adjust as needed */
+        }
+
+        .ca img {
+            max-width: 110px; /* Set width of image */
+            max-height: 110px; /* Set height of image */
+            margin: -10px 70px; /* Adjust margin between images */
+        }
+        .ca p{
+            font-weight: bold;
+        }
+
+
+        
+    
+    </style>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark transparent-navbar">
+        <div class="container">
+            <!-- Replace "Navbar" text with an image logo -->
+            <a class="navbar-brand" href="home.html">
+                <img src="./image/logo.png" alt="Logo" style="height: 55px; background-color: rgb(255, 255, 255);"> <!-- Adjust max-height as needed -->
+            </a>
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                            About us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="permit.html">Permits</a></li>
+                            <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
+                            <li><a class="dropdown-item" href="policies.html">Policies</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="calibration.html" id="navbarDropdownMenuLink2" role="button" aria-expanded="false">
+                            Calibration
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                            <li><a class="dropdown-item" href="thermometry.html">Thermometry and Hygrometry</a></li>
+                            <li><a class="dropdown-item" href="pressure.html">Pressure</a></li>
+                            <li><a class="dropdown-item" href="mass.html">Mass</a></li>
+                            <li><a class="dropdown-item" href="volume.html">Volume</a></li>
+                            <li><a class="dropdown-item" href="analytical.html">Analytical and Environmental</a></li>
+                            <li><a class="dropdown-item" href="dimentional.html">Dimensional</a></li>
+                            <li><a class="dropdown-item" href="electrical.html">Electrical and Frequency</a></li>
+                            <li><a class="dropdown-item" href="density.html">Density</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" role="button" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                            <li><a class="dropdown-item" href="calibration.html">Calibration</a></li>
+                            <li><a class="dropdown-item" href="training.html">Training and Consultancy</a></li>
+                            <li><a class="dropdown-item" href="proficiency.html">Proficiency testing</a></li>
+                            <li><a class="dropdown-item" href="inspection.html">Inspection and Certification</a></li>
+                        </ul>
+                    </li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="title">
+    
+    <div class="background-image"></div>
+    <h1 class="divider line double-razor" style="color: white; border: solid #fffffffe;">About Our Company</h1>
+</div>
+<div class="content">
+    
+<div class="div2">
+    <h2 style="margin-top: 20px;">Introduction</h2>
+    <p>Southern Metrology and Calibration Services, Inc. is a reputable ISO/IEC 17025:2017 accredited calibration laboratory, located at Artica Building, National Highway corner Almazora Street, Canlalay, Binan City, Laguna. Established in 2015, we have quickly become a trusted name in the industry, offering comprehensive metrology and calibration services to customers across various sectors. As the calibration laboratory in the Philippines to be accredited by the Philippine Accreditation Bureau for ISO/IEC 17025:2017, we have a track record of delivering exceptional quality and accuracy. With our customer-centric approach, state-of-the-art facilities, and a highly knowledgeable staff, we guarantee top-notch performance and professional quality services.</p>
+    <h2>Services</h2>
+    <p>We specialize in providing precise and reliable metrology and calibration services tailored to the specific needs of our customers. With a wide scope of accreditation, we offer calibration services in diverse fields, including thermometry, hydrometry, mass, balances, force, pressure, torque, analytical, environmental, volume, dimensional, electrical, frequency, density, and viscosity. Our services ensure that your measurement procedures meet the highest quality standards, providing you with confidence and accuracy in your processes.</p>
+    <h2>Facilities and Equipment</h2>
+    <p>Southern Metrology and Calibration Services, Inc. is proud to possess the largest private laboratory facility in the country. With a spacious and well-equipped facility spanning a laboratory area of 1200 square meters across three floors, we have the capacity to handle calibration projects of any size and complexity. Our state-of-the-art laboratory is equipped with cutting-edge equipment, ensuring accurate and precise measurements across various calibration fields.</p>
+    <h2>Personnel and Expertise</h2>
+    <p>Our team comprises 90 highly skilled personnel who have undergone extensive training both domestically and abroad. They possess in-depth knowledge and expertise in their respective calibration fields. Our personnel have received training from prestigious institutions, including the National Metrology Institutes, and are recognized as experts and assessors of ISO/IEC 17025:2017. This ensures that our calibration services adhere to the highest industry standards. Additionally, our personnel undergo continuous training to stay updated with the latest advancements in metrology and calibration practices.</p>
+    <h2>Accreditations and Compliance</h2>
+    <p>We have gained recognition for our commitment to quality and compliance with regulatory bodies. As a calibration laboratory to receive accreditation from the Philippine Accreditation Bureau for ISO/IEC 17025:2017, we have set a benchmark for excellence in the industry. Our compliance with regulatory requirements ensures that our calibration services meet international standards and best practices. With a total of 15 approved signatories, we have a team of experts who oversee and certify the accuracy and reliability of our calibration processes.</p>
+    <h2>Additional Services</h2>
+    <p>In addition to our core calibration services, we offer additional services to support our customers' needs. These include training on management systems and calibration to enhance your understanding of industry standards and procedures. We also serve as a proficiency testing provider, enabling you to assess the competence and accuracy of your measurement processes. Furthermore, we provide inspection and certification services for advanced biosafety cabinets, fume hoods, microscopes, as well as thermal and relative humidity validation.</p>
+    <h2>Contact Us</h2>
+    <p>We encourage you to explore our website to learn more about Southern Metrology and Calibration Services, Inc., our comprehensive range of calibration fields, and the additional services we offer. If you have any questions or inquiries, please feel free to contact us at any time. Our dedicated team is ready to assist you and provide expert guidance in metrology and calibration.</p>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="back" style="background-color: #f3f8fa;">
+    <div class="bot" style="background-color: #f3f8fa;">
+    <h2 style="margin: 20px 0 30px; text-align: center; padding: 50px 0;">View our areas of expertise</h2>
+    <div class="ca">
+        <div style="text-align: center;">
+            <a href="thermometry.html">
+                <img src="./image/c1.png" alt="Image 1" id="qw">
+            </a>
+            <p>Thermometry and<br>Hygrometry
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <a href="pressure.html">
+                <img src="./image/c2.png" alt="Image 2" id="qw">
+            </a>
+            <p>Pressure</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="mass.html">
+                <img src="./image/c3.png" alt="Image 1" id="qw">
+            </a>
+            <p>Mass</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="volume.html">
+                <img src="./image/c5.png" alt="Image 1" id="qw">
+            </a>
+            <p>Volume</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="analytical.html">
+                <img src="./image/c7.png" alt="Image 2" id="qw">
+            </a>
+            <p>Analytical and<br>Environmental</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="dimentional.html">
+                <img src="./image/c8.png" alt="Image 2" id="qw">
+            </a>
+            <p>Dimensional</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="electrical.html">
+                <img src="./image/c9.png" alt="Image 2" id="qw">
+            </a>
+            <p>Electrical</p>
+        </div>
+        <div style="text-align: center;">
+            <a href="density.html">
+                <img src="./image/c10.png" alt="Image 2" id="qw">
+            </a>
+            <p>Density</p>
+        </div>
+        <!-- Repeat for other images -->
+    </div>
+    </div>
+    </div>
+
+
+
+<div class="footer">
+    <div class="up">
+        <h3 class="con">Contact Us
+            <a href="home.html"><img src="./image/logo.png" alt="Logo" class="logo d-inline-block align-text-top me-2 img-fluid bg-white">
+            </a>
+        </h3>
+            <a href="https://www.facebook.com/profile.php?id=100093160215001&mibextid=JRoKGi">
+            <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+            </a>
+        </div>
+        
+        
+        <div class="separator">
+            <div id="separator-5435933ece" class="cmp-separator">
+                <hr class="cmp-separator__horizontal-rule">
+            </div>
+        </div>
+        <div class="divs">
+        <t class="contact"><strong>Contact Details</strong><br>Sales Department<br>Globe: 0945 408 2266<br>Sun: 0925 503 1523<br>Manila Line: (02) 8533 0162<br>Laguna Line: (049) 511 8177</t>
+        <t class="address"><strong>Office Address</strong><br>	
+            Artica Building, National Highway corner Almazora Street,<br> Canlalay, Biñan City 4024, Laguna, Philippines</t>
+        <t class="email"><strong>Email Address</strong><br>	
+            info@southerncalibration.com<br>southerncalab@gmail.com</t>
+    </div>
+    <div class="separator">
+        <div id="separator-5435933ece" class="cmp-separator">
+            <hr class="cmp-separator__horizontal-rule">
+        </div>
+    </div>
+    <div class="copyright">AN ISO/IEC 17025:2017 ACCREDITED CALIBRATION LABORATORY<br>Copyright ©  2018  All Rights Reserved. Southern Metrology and Calibration Services, Inc.</div>
+    </div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+
+
+
+
+<script>
+    // Check if the screen width is below 800px
+    if (window.innerWidth <= 800) {
+        // Variable to track if the dropdown is open
+        var dropdownOpen = false;
+
+        // Add event listeners to toggle dropdowns on click for touch screen devices
+        document.querySelectorAll('.dropdown-toggle').forEach(function(element) {
+            element.addEventListener('click', function(e) {
+                e.preventDefault();
+                var dropdownMenu = this.nextElementSibling;
+                if (!dropdownMenu.classList.contains('show')) {
+                    // Close all other open dropdowns
+                    document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
+                        menu.classList.remove('show');
+                    });
+                    dropdownMenu.classList.add('show');
+                    // Update the dropdownOpen variable
+                    dropdownOpen = true;
+                } else {
+                    // If the dropdown is already open, close it
+                    dropdownMenu.classList.remove('show');
+                    // Update the dropdownOpen variable
+                    dropdownOpen = false;
+                }
+            });
+        });
+
+        // Add event listener to the navbarDropdownMenuLink element to navigate to other HTML files
+        document.getElementById('navbarDropdownMenuLink').addEventListener('click', function(e) {
+            // If the dropdown is open, prevent navigation
+            if (dropdownOpen) {
+                e.preventDefault();
+            } else {
+                // If the dropdown is closed, navigate to about.html
+                window.location.href = 'about.html';
+            }
+        });
+
+        // Add event listener to the navbarDropdownMenuLink element to navigate to other HTML files
+        document.getElementById('navbarDropdownMenuLink2').addEventListener('click', function(e) {
+            // If the dropdown is open, prevent navigation
+            if (dropdownOpen) {
+                e.preventDefault();
+            } else {
+                // If the dropdown is closed, navigate to calibration.html
+                window.location.href = 'calibration.html';
+            }
+        });
+    }
+</script>
+
+<script>
+
+
+// Add an event listener to detect scrolling
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    var navLinks = navbar.querySelectorAll('.nav-link'); // Get all nav-link elements
+
+    // Add the "scrolled" class to the navbar when the user scrolls down
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+        // Change the color of nav-links to blue
+        navLinks.forEach(function(link) {
+            link.style.color = '#5aace3';
+        });
+    } else {
+        navbar.classList.remove('scrolled');
+        // Change the color of nav-links back to white
+        navLinks.forEach(function(link) {
+            link.style.color = 'white';
+        });
+    }
+});
+
+
+
+
+</script>
+
+
+</body>
+</html>
